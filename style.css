@@ -14,7 +14,7 @@ body {
 img {
     width: 340px;
 }
-section {
+main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -36,7 +36,7 @@ section {
     padding-left: 1.5rem;
     margin-bottom: 0.8rem;
 }
-main {
+section {
     width: 100%;
 }
 p.heading {
@@ -109,7 +109,7 @@ footer {
     body {
         background-color: hsl(30, 38%, 92%);
     }
-    section {
+    main {
         height: 450px;
         width: 600px;
         display: grid;
@@ -135,7 +135,7 @@ footer {
         grid-area: caption;
         margin-top: 1.8rem;
     }
-    main {
+    section {
         grid-area: main;
     }
     footer {
