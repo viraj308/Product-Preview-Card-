@@ -39,7 +39,7 @@ main {
 section {
     width: 100%;
 }
-p.heading {
+.heading {
     font-family: 'Fraunces';
     font-size: 1.9rem;
     margin: 0px;
@@ -105,6 +105,19 @@ footer {
 .btn:hover {
     background-color: hsl(212, 21%, 14%);
 }
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+  }
 @media screen and (min-width: 600px) {
     body {
         background-color: hsl(30, 38%, 92%);
@@ -141,7 +154,7 @@ footer {
     footer {
         grid-area: footer;
     }
-    p.heading {
+    .heading {
         width: 200px;
     }
     p.text {
